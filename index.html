@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <h1>EXERCÍCIO - EM DUPLAS</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>QUANTIDADE</th>
+                    <th>PRODUTO</th>
+                    <th>PREÇO UNITÁRIO</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td id="q1"></td>
+                    <td id="produto1"></td>
+                    <td id="preco1"></td>
+                    <td id="total1"></td>
+                </tr>
+
+                <tr>
+                    <td id="q2"></td>
+                    <td id="produto2"></td>
+                    <td id="preco2"></td>
+                    <td id="total2"></td>
+                </tr>
+
+                <tr>
+                    <td id="q3"></td>
+                    <td id="produto3"></td>
+                    <td id="preco3"></td>
+                    <td id="total3"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="descricao">
+                        TOTAL DA COMPRA
+                    </td>
+                    <td id="totalCompra"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="descricao">
+                        MÉDIA POR PRODUTO
+                    </td>
+                    <td id="media"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="descricao">
+                        MÉDIA INT POR PRODUTO
+                    </td>
+                    <td id="mediaInt"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button onclick="receberDados()">
+            Inserir produtos
+        </button>
+
+    </main>
+
+</body>
+</html>
